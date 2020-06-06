@@ -1,6 +1,9 @@
 修复同一底库训练出词袋不同问题；
 添加获取单词数、词典训练层数接口；
 修复单词的id 大于总单词数的问题；
+修复 调用transform（features，level，fBoW，fBoW2）
+    与调用fBoW=transform（features），
+    fBoW结果不一致问题；
 
 FBOW
 =====
