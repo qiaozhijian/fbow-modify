@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fbow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\src\;CMake Files\utils\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow">
+				<Option output="/media/qzj/Software/code/fbow-modify/lib/libfbow.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 fbow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/lib/libfbow.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 fbow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_transform">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_transform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_transform"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_transform/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_transform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_transform/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_create_voc_step0">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_create_voc_step0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_create_voc_step0"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_create_voc_step0/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_create_voc_step0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_create_voc_step0/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_create_voc_step1">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_create_voc_step1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_create_voc_step1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_create_voc_step1/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_create_voc_step1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_create_voc_step1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_create_voc_step0_list">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_create_voc_step0_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_create_voc_step0_list"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_create_voc_step0_list/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/fbow_create_voc_step0_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 fbow_create_voc_step0_list/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_matching">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/image_matching" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 image_matching"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_matching/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/image_matching" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/home/mjmarin/libs/ORB_SLAM2/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 image_matching/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_test_dbow2VSfbow">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/fbow_test_dbow2VSfbow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 fbow_test_dbow2VSfbow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_test_dbow2VSfbow/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/fbow_test_dbow2VSfbow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 fbow_test_dbow2VSfbow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_test_dbow2fbow">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/fbow_test_dbow2fbow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 fbow_test_dbow2fbow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_test_dbow2fbow/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/fbow_test_dbow2fbow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 fbow_test_dbow2fbow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_test_cpu_x86">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/fbow_test_cpu_x86" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 fbow_test_cpu_x86"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fbow_test_cpu_x86/fast">
+				<Option output="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/fbow_test_cpu_x86" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/qzj/Software/code/fbow-modify/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_VERSION_3"/>
+					<Add option="-DUSE_MMX"/>
+					<Add option="-DUSE_SSE"/>
+					<Add option="-DUSE_SSE2"/>
+					<Add option="-DUSE_SSE3"/>
+					<Add option="-DUSE_AVX"/>
+					<Add directory="/media/qzj/Software/code/fbow-modify/src"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 fbow_test_cpu_x86/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/qzj/Software/code/fbow-modify/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/src/cpu.h">
+			<Option target="fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/src/fbow.cpp">
+			<Option target="fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/src/fbow.h">
+			<Option target="fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/src/fbow_exports.h">
+			<Option target="fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/src/vocabulary_creator.cpp">
+			<Option target="fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/src/vocabulary_creator.h">
+			<Option target="fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/BowVector.h">
+			<Option target="fbow_test_dbow2VSfbow"/>
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/FClass.h">
+			<Option target="fbow_test_dbow2VSfbow"/>
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/FORB.cpp">
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/FORB.h">
+			<Option target="fbow_test_dbow2VSfbow"/>
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/FeatureVector.h">
+			<Option target="fbow_test_dbow2VSfbow"/>
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/ScoringObject.cpp">
+			<Option target="fbow_test_dbow2VSfbow"/>
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/ScoringObject.h">
+			<Option target="fbow_test_dbow2VSfbow"/>
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2/TemplatedVocabulary.h">
+			<Option target="fbow_test_dbow2VSfbow"/>
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/dbow2fbow.cpp">
+			<Option target="fbow_test_dbow2fbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/test_cpu_x86.cpp">
+			<Option target="fbow_test_cpu_x86"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/test_dbow2VSfbow.cpp">
+			<Option target="fbow_test_dbow2VSfbow"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/utils/dirreader.h">
+			<Option target="fbow_create_voc_step0"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/utils/fbow_create_voc_step0.cpp">
+			<Option target="fbow_create_voc_step0"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/utils/fbow_create_voc_step0_list.cpp">
+			<Option target="fbow_create_voc_step0_list"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/utils/fbow_create_voc_step1.cpp">
+			<Option target="fbow_create_voc_step1"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/utils/fbow_transform.cpp">
+			<Option target="fbow_transform"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/utils/image_matching.cpp">
+			<Option target="image_matching"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/config.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+		<Unit filename="/media/qzj/Software/code/fbow-modify/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

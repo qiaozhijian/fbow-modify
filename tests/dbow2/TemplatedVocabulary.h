@@ -291,7 +291,7 @@ public:
    */
   virtual int stopWords(double minWeight);
 
-protected:
+public:
 
   /// Pointer to descriptor
   typedef const TDescriptor *pDescriptor;
@@ -330,6 +330,9 @@ protected:
      */
     inline bool isLeaf() const { return children.empty(); }
   };
+
+  //Tree nodes
+  std::vector<Node> m_nodes;
 
 protected:
 
@@ -421,9 +424,6 @@ protected:
   
   /// Object for computing scores
   GeneralScoring* m_scoring_object;
-  
-  /// Tree nodes
-  std::vector<Node> m_nodes;
   
   /// Words of the vocabulary (tree leaves)
   /// this condition holds: m_words[wid]->word_id == wid

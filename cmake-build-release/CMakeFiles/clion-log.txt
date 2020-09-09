@@ -1,0 +1,39 @@
+/media/qzj/Software/ubuntu_downloads/software/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /media/qzj/Software/code/fbow-modify
+OPENCVINCDIR=/usr/local/include;/usr/local/include/opencv
+-- vec= -mmmx -msse  -msse2 -msse3 -mavx
+-- -------------------------------------------------------------------------------
+-- GNU COMPILER
+-- -------------------------------------------------------------------------------
+-- 
+-- -------------------------------------------------------------------------------
+-- General configuration for fbow 0.0.1
+-- -------------------------------------------------------------------------------
+-- 
+    Built as dynamic libs?:ON
+    Compiler:/usr/bin/c++
+-- Build Type: Release
+-- C++ flags (Release):        -fopenmp  -mmmx -msse  -msse2 -msse3 -mavx  -fomit-frame-pointer -O3  -O3  -std=c++11 -Wall -DNDEBUG  -fopenmp 
+-- C++ flags (Debug):          -fopenmp  -mmmx -msse  -msse2 -msse3 -mavx  -g3  -DDEBUG -D_DEBUG   -std=c++11 -Wall  -fopenmp 
+-- C++ flags (Relase+Debug):          -mmmx -msse  -msse2 -msse3 -mavx -O2 -g3  -DDEBUG -D_DEBUG  -std=c++11 -Wall  -fopenmp 
+-- CMAKE_CXX_FLAGS:          -fopenmp
+-- CMAKE_BINARY_DIR:         /media/qzj/Software/code/fbow-modify/cmake-build-release
+-- OPENMP FOUND:         TRUE
+-- 
+-- CMAKE_SYSTEM_PROCESSOR = x86_64
+-- BUILD_SHARED_LIBS = ON
+-- CMAKE_INSTALL_PREFIX = /usr/local
+-- CMAKE_BUILD_TYPE = Release
+-- CMAKE_MODULE_PATH = /usr/local/lib/cmake/;/usr/lib/cmake;/home/mjmarin/libs/ORB_SLAM2/lib/
+-- BUILD_UTILS= ON
+-- BUILD_TESTS= 
+-- OPENCV_DIR= /usr/local/share/OpenCV
+-- 
+-- OpenCV_LIB_DIR=
+-- CMAKE_INSTALL_PREFIX=/media/qzj/Software/code/fbow-modify/cmake-build-release
+-- 
+-- 
+-- Change a value with: cmake -D<Variable>=<Value>
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/qzj/Software/code/fbow-modify/cmake-build-release

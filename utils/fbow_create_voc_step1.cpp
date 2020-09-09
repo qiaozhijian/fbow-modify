@@ -75,7 +75,7 @@ int main(int argc,char **argv)
         voc_creator.create(voc,features,desc_name, params);
         auto t_end=std::chrono::high_resolution_clock::now();
         cout<<"time="<<double(std::chrono::duration_cast<std::chrono::milliseconds>(t_end-t_start).count())<<" msecs"<<endl;
-        cout<<"nblocks="<<voc.size()<<endl;
+        cout<<"nblocks="<<voc.blockSize()<<endl;
         cerr<<"Saving "<<argv[2]<<endl;
         voc.saveToFile(argv[2]);
 
