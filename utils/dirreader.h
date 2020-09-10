@@ -1,5 +1,6 @@
 #ifndef _DIR_READER_H
 #define _DIR_READER_H
+
 #include <vector>
 #include <string>
 
@@ -1164,27 +1165,27 @@ dirent_set_errno(
 #endif
 #endif /*DIRENT_H*/
 #else
+
 #include <dirent.h>
+
 #endif
 
 
-
-
-class DirReader{
+class DirReader {
 public:
-static std::vector<std::string> read(std::string path){
-    DIR *dir;
-    struct dirent *ent;
-    std::vector<std::string>  res;
-    if ((dir = opendir (path.c_str())) != NULL) {
-      /* print all the files and directories within directory */
-      while ((ent = readdir (dir)) != NULL)
-          res.push_back(path+std::string("/")+std::string(ent->d_name));
-      closedir (dir);
+    static std::vector<std::string> read(std::string path) {
+        DIR *dir;
+        struct dirent *ent;
+        std::vector<std::string> res;
+        if ((dir = opendir(path.c_str())) != NULL) {
+            /* print all the files and directories within directory */
+            while ((ent = readdir(dir)) != NULL)
+                res.push_back(path + std::string("/") + std::string(ent->d_name));
+            closedir(dir);
+        }
+        //check
+        return res;
     }
-    //check
-    return res;
-}
-
 };
+
 #endif

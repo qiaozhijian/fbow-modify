@@ -15,4 +15,10 @@ tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o
  ../src/cpu.h
  ../src/fbow.h
  ../src/fbow_exports.h
+ /media/qzj/Software/code/fbow-modify/tests/dbow2/BowVector.h
+ /media/qzj/Software/code/fbow-modify/tests/dbow2/FClass.h
+ /media/qzj/Software/code/fbow-modify/tests/dbow2/FORB.h
+ /media/qzj/Software/code/fbow-modify/tests/dbow2/FeatureVector.h
+ /media/qzj/Software/code/fbow-modify/tests/dbow2/ScoringObject.h
+ /media/qzj/Software/code/fbow-modify/tests/dbow2/TemplatedVocabulary.h
  /media/qzj/Software/code/fbow-modify/tests/dbow2fbow.cpp

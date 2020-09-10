@@ -54,6 +54,26 @@ map
 vector
 -
 
+/media/qzj/Software/code/fbow-modify/tests/dbow2/FClass.h
+opencv2/core/core.hpp
+-
+vector
+-
+string
+-
+
+/media/qzj/Software/code/fbow-modify/tests/dbow2/FORB.h
+opencv2/core/core.hpp
+-
+vector
+-
+string
+-
+cstdint
+-
+FClass.h
+/media/qzj/Software/code/fbow-modify/tests/dbow2/FClass.h
+
 /media/qzj/Software/code/fbow-modify/tests/dbow2/FeatureVector.h
 BowVector.h
 /media/qzj/Software/code/fbow-modify/tests/dbow2/BowVector.h
@@ -101,10 +121,10 @@ ScoringObject.h
 /media/qzj/Software/code/fbow-modify/tests/dbow2/ScoringObject.h
 
 /media/qzj/Software/code/fbow-modify/tests/dbow2fbow.cpp
-DBoW2/TemplatedDatabase.h
-/media/qzj/Software/code/fbow-modify/tests/DBoW2/TemplatedDatabase.h
-DBoW2/FORB.h
-/media/qzj/Software/code/fbow-modify/tests/DBoW2/FORB.h
+dbow2/TemplatedVocabulary.h
+/media/qzj/Software/code/fbow-modify/tests/dbow2/TemplatedVocabulary.h
+dbow2/FORB.h
+/media/qzj/Software/code/fbow-modify/tests/dbow2/FORB.h
 opencv2/core/core.hpp
 -
 fbow.h

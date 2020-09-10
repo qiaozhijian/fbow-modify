@@ -1,13 +1,16 @@
 
 #include <iostream>
 #include "cpu.h"
+
 using namespace std;
 using namespace fbow;
-void print(const char* label, bool yes){
+
+void print(const char *label, bool yes) {
     cout << label;
     cout << (yes ? "Yes" : "No") << endl;
 }
-void print(cpu  host_info)  {
+
+void print(cpu host_info) {
     cout << "CPU Vendor:" << endl;
     print("    AMD         = ", host_info.Vendor_AMD);
     print("    Intel       = ", host_info.Vendor_Intel);
@@ -59,7 +62,7 @@ void print(cpu  host_info)  {
     print("    AVX512-PF   = ", host_info.HW_AVX512_PF);
     print("    AVX512-ER   = ", host_info.HW_AVX512_ER);
     print("    AVX512-VL   = ", host_info.HW_AVX512_VL);
-    print("    AVX512-BW   = ",host_info. HW_AVX512_BW);
+    print("    AVX512-BW   = ", host_info.HW_AVX512_BW);
     print("    AVX512-DQ   = ", host_info.HW_AVX512_DQ);
     print("    AVX512-IFMA = ", host_info.HW_AVX512_IFMA);
     print("    AVX512-VBMI = ", host_info.HW_AVX512_VBMI);
@@ -67,14 +70,14 @@ void print(cpu  host_info)  {
 
     cout << "Summary:" << endl;
     print("    Safe to use AVX:     ", host_info.HW_AVX && host_info.OS_AVX);
-    print("    Safe to use AVX512:  ",host_info. HW_AVX512_F && host_info.OS_AVX512);
+    print("    Safe to use AVX512:  ", host_info.HW_AVX512_F && host_info.OS_AVX512);
     cout << endl;
 }
 
-int main(){
+int main() {
 
-    cout << "CPU Vendor String: " ;
-    std::cout<< cpu::get_vendor_string() ;
+    cout << "CPU Vendor String: ";
+    std::cout << cpu::get_vendor_string();
     cpu features;
     features.detect_host();
     print(features);

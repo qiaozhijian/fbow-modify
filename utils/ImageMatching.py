@@ -1,10 +1,11 @@
 from os import walk
 import os
-DBDIR = "Database dir" #the dir where images reside e.g. C:/database
-DBNAME = "Databasename" #e.g. database (in the line above)
-CODEDIR = "" #e.g. H:/fbow-windows/build/bin/Release
+
+DBDIR = "Database dir"  # the dir where images reside e.g. C:/database
+DBNAME = "Databasename"  # e.g. database (in the line above)
+CODEDIR = ""  # e.g. H:/fbow-windows/build/bin/Release
 DESCRIPTOR = "orb"
-RESULTSDIR = ""#e.g. "C:/FBoWResults"
+RESULTSDIR = ""  # e.g. "C:/FBoWResults"
 OUTPUT = RESULTSDIR + "/" + DESCRIPTOR + DBNAME
 MKDIRCMD = "mkdir " + OUTPUT
 FeaturesExtractCmd = CODEDIR + "/" + "fbow_create_voc_step0.exe " + DESCRIPTOR + " " + OUTPUT + "/features"

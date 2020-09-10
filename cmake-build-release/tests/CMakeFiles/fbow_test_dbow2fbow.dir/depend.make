@@ -14,5 +14,11 @@ tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2/ScoringObject.cpp.o: ../tests/dbo
 tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../src/cpu.h
 tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../src/fbow.h
 tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../src/fbow_exports.h
+tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../tests/dbow2/BowVector.h
+tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../tests/dbow2/FClass.h
+tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../tests/dbow2/FORB.h
+tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../tests/dbow2/FeatureVector.h
+tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../tests/dbow2/ScoringObject.h
+tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../tests/dbow2/TemplatedVocabulary.h
 tests/CMakeFiles/fbow_test_dbow2fbow.dir/dbow2fbow.cpp.o: ../tests/dbow2fbow.cpp
 
